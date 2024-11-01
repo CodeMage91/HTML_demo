@@ -1,0 +1,248 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: content-box;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    max-width: 100vh;
+}
+
+.header{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+}
+
+.header-name{
+    color:cadetblue;
+    margin-top: 23px;
+    font-weight: bolder;
+    font-size: 26px;
+}
+
+.profile-pic{
+    width: 69px;
+    border-radius: 40px;
+    background-color: goldenrod;
+    margin: 3px 0px 2px 129px;
+    background-image: url("../port_pics/propic.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+.nav{
+    margin-top: 23px;
+    display: flex;
+    list-style:none;
+}
+
+li{
+    font-size: larger;
+    margin-left: 13px;
+    margin-right: 23px;
+    color: cadetblue;
+}
+
+main{
+   display: flex;
+   flex-direction: column;
+    background-image: linear-gradient(to bottom, rgba(87, 142, 230, 0.707),white);
+    height: 600px;
+    color:whitesmoke;
+    width:100vw;
+    
+}
+
+.main-0{
+    text-align: center;
+    font-size: 23px;
+    margin-top:200px;
+    padding: 33px;
+    height: 900px ;
+/* border:3px black outset; */
+ color:rgb(81, 133, 135);
+}
+
+
+table{
+    color: white;
+    text-shadow: 3px 2px 23px black;
+    height: 60px;
+    margin-top: 180px;
+    border-color: rgba(218, 165, 32, 0);
+    height:283px;
+    padding: 3px;
+    margin-left: 23px;
+}
+
+.table-holder{
+    position: absolute;
+    
+}
+
+.button-holder{
+    display: flex;
+    justify-content: center;
+}
+
+.main-button{
+    width: 120px;
+    padding: 13px;
+    font-size: 23px;
+    border: 6px outset white;
+    border-radius: 9px;
+    background-image: linear-gradient(blue, black);
+    color:white;
+    /* margin-left:42%; */
+    animation-name: button-ani;
+    animation-duration: 1s;
+}
+
+.main-button:hover{
+    background-image: linear-gradient(black,purple);
+    border-color:goldenrod;
+}
+
+.holder{
+    display: flex;
+    justify-content: center;
+}
+
+.hello{
+    width: 250px;
+    height: 250px;
+    background-color: lightcoral;
+    margin: 23px;
+    background-position: center;
+}
+
+.hello-1{
+    background-image: url("../port_pics/home_pic.jpg");
+}
+
+.hello-2{
+    background-image: url("../port_pics/IMG_2925.webp");
+}
+
+.hello-3{
+    background-image: url("../port_pics/presentation_pic.webp");
+}
+
+.about-me{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 23px;
+    padding: 18px;
+    font-size: 23px;
+    background-image: linear-gradient(white,skyblue);
+}
+
+.get-to-know{
+    color: whitesmoke;
+    text-align: justify;
+    padding: 18px;
+    font-size: 20px;
+    width: 50%;
+}
+
+.skills{
+    font-size: 18px;
+    color:white;
+    width: 45%;
+}
+
+.skills li{
+ 
+    list-style: none;
+    color: white;
+    border: 3px white outset;
+    padding: 5px;
+    background-image: linear-gradient(blue,black);
+    margin: 13px;
+}
+
+.skill-holder{
+    background-image: linear-gradient(skyblue,rgb(135, 137, 235));
+    display: flex;
+}
+
+.skill-list{
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer{
+    background-color: black;
+    height: 40px;
+    margin-top: auto;
+    color:white;
+    padding: 23px;
+}
+
+.section{
+    padding-bottom: 34px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 18px;
+    font-size: 20px;
+    background-image:linear-gradient(rgb(135, 137, 235),rgb(164, 125, 226));
+}
+
+.project{
+    display:flex;
+    background-image: linear-gradient(rgb(164, 125, 226),rgb(167, 105, 203));
+}
+
+.project-pic{
+    border: 3px outset white;
+    width: 420px;
+    height: 420px;
+    background-image: url("../port_pics/flower.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 120px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+.project-desc{
+    font-size: 28;
+    color: white;
+    width: 520px;
+    margin-left:120px;
+}
+
+.flower-button{
+    border-radius: 5px;
+    border: 5px outset white;
+    font-size: 18px;
+    background-image: linear-gradient(blue,black);
+    padding: 7px;
+    color: white;
+    margin:12px;
+
+}
+
+.flower-button:hover{
+    background-image: linear-gradient(purple,black);
+    cursor: pointer;
+    border-color: goldenrod;
+}
+
+
+
+
+
+
